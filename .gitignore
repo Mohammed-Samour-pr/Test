@@ -1,0 +1,48 @@
+# Media Management System - Git Ignore
+
+# Uploaded files
+uploads/images/*
+uploads/videos/*
+uploads/logos/*
+!uploads/images/.gitkeep
+!uploads/videos/.gitkeep
+!uploads/logos/.gitkeep
+
+# Configuration (if contains sensitive data)
+# config/database.php
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+error_log
+debug_log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache
+cache/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*.sql.gz
+
+# Environment files
+.env
+.env.local
