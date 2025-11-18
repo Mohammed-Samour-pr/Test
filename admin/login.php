@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div style="margin-top: 2rem; text-align: center; color: var(--gray-500); font-size: 0.875rem;">
                 <p>البيانات الافتراضية:</p>
                 <p><strong>اسم المستخدم:</strong> admin</p>
-                <p><strong>كلمة المرور:</strong> admin123</p>
+                <p><strong>كلمة المرور:</strong> moh14</p>
             </div>
         </div>
     </div>

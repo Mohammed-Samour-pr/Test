@@ -37,7 +37,7 @@ Media Management System - Quick Installation Guide
 لوحة التحكم:
   الرابط: /admin/login.php
   المستخدم: admin
-  كلمة المرور: admin123
+  كلمة المرور: moh14
 
 المؤسسات التجريبية:
   الرابط: /client/login.php

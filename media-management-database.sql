@@ -58,9 +58,9 @@ CREATE TABLE IF NOT EXISTS media (
     INDEX idx_type (file_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Insert default admin user (username: admin, password: admin123)
+-- Insert default admin user (username: admin, password: moh14)
 INSERT INTO admins (username, password, full_name) VALUES
-('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'مدير النظام');
+('admin', '$2y$12$oRFclTivG8yv/eN3s1Ym4Oy0Y/qlCGGLT9joO925vVWoRBEYLhRMy', 'مدير النظام');
 
 -- Sample institutions
 INSERT INTO institutions (name, access_code, description) VALUES
