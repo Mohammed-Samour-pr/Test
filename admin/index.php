@@ -41,8 +41,6 @@ $recent_albums = $conn->query("
     LIMIT 5
 ");
 
-closeConnection($conn);
-
 include 'header.php';
 ?>
 
@@ -163,4 +161,7 @@ include 'header.php';
     </div>
 </div>
 
-<?php include 'footer.php'; ?>
+<?php
+closeConnection($conn);
+include 'footer.php';
+?>
